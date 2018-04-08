@@ -24,7 +24,9 @@ install_notty() {
 建议：建议将脚本加入crontab"
 	else
 		echo "install ok
-    
+
+Start：notty
+
 Modify: modify the number of failures, please edit the script file
 
 Recommendation: It is recommended to add the script to the crontab"
