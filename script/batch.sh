@@ -47,7 +47,7 @@ info_batch() {
 
 介绍：跳板机批量操作脚本
 		
-类型：字符游戏
+类型：系统管理
 
 作者：http://www.52wiki.cn/docs/shell"
 	else
@@ -57,7 +57,7 @@ Version：1.2
 
 Introduce：Springboard batch operation script
 
-Type: Character game
+Type: System Management
 
 Author：http://www.52wiki.cn/docs/shell"
 	fi
