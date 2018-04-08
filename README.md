@@ -14,7 +14,7 @@ sai可以对所支持的脚本进行安装，卸载，查看，自定义编辑
 ## 二.如何安装sai？
 [不同版本地址](https://github.com/goodboy23/shell-auto-install/releases "不同版本下载地址")
 
-如下是安装最新版本，此命令需要curl软件
+如下是安装最新版本，此命令需要curl软件，并且这是一行命令，不是两行
 
 `curl https://raw.githubusercontent.com/goodboy23/shell-auto-install/master/conf/install-sai.sh -o install-sai.sh &&  chmod +x install-sai.sh && ./install-sai.sh`
 
