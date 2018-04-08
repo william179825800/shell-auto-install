@@ -66,8 +66,9 @@ list    httpd      List httpd related scripts"
 update_sai() {
     test_root
     test_install git
-    ls | grep -v package | xargs rm -rf
     git clone https://github.com/goodboy23/shell-auto-install.git
+    cat conf/installed.txt > shell-auto-install/conf/installed.txt
+    ls | grep -v package | xargs rm -rf
     rm -rf shell-auto-install/package
     mv shell-auto-install/* .
     rm -rf shell-auto-install
