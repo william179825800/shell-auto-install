@@ -20,7 +20,7 @@ get_zookeeper_cluster() {
 
 install_zookeeper_cluster() {
 	remove_zookeeper_cluster
-    [ -f ${install_dir}/${zookeeper_dir}/conf/zoo.cfg.dynamic ] || test_exit "请先安装mysql"
+    [ -f ${install_dir}/${zookeeper_dir}/conf/zoo.cfg.dynamic ] || test_exit "请先安装zookeeper"
 
     #配置文件
     echo "clientPort=${port}
